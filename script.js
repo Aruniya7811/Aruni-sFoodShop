@@ -4,11 +4,16 @@ let menuQty = {
     "Normal Dosa": 0,
     "Onion Dosa": 0,
     "Special Dosa": 0,
+    "Mutta Dosa": 0,
     "Podi Idli": 0,
     "Normal Idli": 0,
     "Mini Idli": 0,
+    "Mini Podi Idli": 0,
     "Omelette": 0,
     "Bread Omelette": 0,
+    "Chappati": 0,
+    "Poori": 0,
+    "Lemon Juice":0,
     "Yippee With Soup": 0,
     "Maggi With Soup": 0
 };
