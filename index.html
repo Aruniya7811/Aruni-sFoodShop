@@ -14,7 +14,7 @@
         <h1>Arun's Food Shop</h1>
 
         <div class="delivery-time">
-            🚚 Delivery: <span>10–15 mins</span>
+            🚚 Delivery: <span>ALWAYS FREE</span>
         </div>
 
         <div class="cart-icon" onclick="toggleCart()">
@@ -42,7 +42,7 @@
             <div class="menu-item">
                 <img src="onion dosa.jpg" alt="Onion Dosa">
                 <h3>Onion Dosa</h3>
-                <p>₹14</p>
+                <p>₹17</p>
                 <div class="qty-control">
                     <button onclick="changeQtyMenu('Onion Dosa', -1)">-</button>
                     <span id="qty-Onion Dosa">0</span>
@@ -64,9 +64,21 @@
             </div>
 
             <div class="menu-item">
+                <img src="mutta dosa.jpg" alt="Special Dosa">
+                <h3>Mutta Dosa</h3>
+                <p>₹23</p>
+                <div class="qty-control">
+                    <button onclick="changeQtyMenu('Special Dosa', -1)">-</button>
+                    <span id="qty-Special Dosa">0</span>
+                    <button onclick="changeQtyMenu('Special Dosa', 1)">+</button>
+                </div>
+                <button onclick="addToCartFromMenu('Special Dosa',10)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
                 <img src="podi idli.jpg" alt="Podi Idli">
                 <h3>Podi Idli</h3>
-                <p>₹7</p>
+                <p>₹8</p>
                 <div class="qty-control">
                     <button onclick="changeQtyMenu('Podi Idli', -1)">-</button>
                     <span id="qty-Podi Idli">0</span>
@@ -100,6 +112,19 @@
             </div>
 
             <div class="menu-item">
+                <img src="mini podi idli.webp" alt="Mini Idli">
+                <h3>Mini Podi Idli (1 plate)</h3>
+                <p>₹10</p>
+                <div class="qty-control">
+                    <button onclick="changeQtyMenu('Mini Idli', -1)">-</button>
+                    <span id="qty-Mini Idli">0</span>
+                    <button onclick="changeQtyMenu('Mini Idli', 1)">+</button>
+                </div>
+                <button onclick="addToCartFromMenu('Mini Idli',10)">Add to Cart</button>
+            </div>
+
+
+            <div class="menu-item">
                 <img src="omlette.png" alt="Omelette">
                 <h3>Omelette</h3>
                 <p>₹15</p>
@@ -114,7 +139,7 @@
             <div class="menu-item">
                 <img src="bread omlette.png" alt="Bread Omelette">
                 <h3>Bread Omelette</h3>
-                <p>₹17</p>
+                <p>₹25</p>
                 <div class="qty-control">
                     <button onclick="changeQtyMenu('Bread Omelette', -1)">-</button>
                     <span id="qty-Bread Omelette">0</span>
@@ -124,9 +149,33 @@
             </div>
 
             <div class="menu-item">
+                <img src="sappati.jpg" alt="Omelette">
+                <h3>Chappati Only On Saturday & Sunday</h3>
+                <p>₹15</p>
+                <div class="qty-control">
+                    <button onclick="changeQtyMenu('Omelette', -1)">-</button>
+                    <span id="qty-Omelette">0</span>
+                    <button onclick="changeQtyMenu('Omelette', 1)">+</button>
+                </div>
+                <button onclick="addToCartFromMenu('Omelette',15)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="poori.webp" alt="Omelette">
+                <h3>Poori Only On Saturday & Sunday</h3>
+                <p>₹15</p>
+                <div class="qty-control">
+                    <button onclick="changeQtyMenu('Omelette', -1)">-</button>
+                    <span id="qty-Omelette">0</span>
+                    <button onclick="changeQtyMenu('Omelette', 1)">+</button>
+                </div>
+                <button onclick="addToCartFromMenu('Omelette',15)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
                 <img src="yippee noodles.png" alt="Yippee With Soup">
                 <h3>Yippee With Soup</h3>
-                <p>₹23</p>
+                <p>₹25</p>
                 <div class="qty-control">
                     <button onclick="changeQtyMenu('Yippee With Soup', -1)">-</button>
                     <span id="qty-Yippee With Soup">0</span>
@@ -138,13 +187,25 @@
             <div class="menu-item">
                 <img src="maggiee noodles.jpg" alt="Maggi With Soup">
                 <h3>Maggi With Soup</h3>
-                <p>₹23</p>
+                <p>₹25</p>
                 <div class="qty-control">
                     <button onclick="changeQtyMenu('Maggi With Soup', -1)">-</button>
                     <span id="qty-Maggi With Soup">0</span>
                     <button onclick="changeQtyMenu('Maggi With Soup', 1)">+</button>
                 </div>
                 <button onclick="addToCartFromMenu('Maggi With Soup',22)">Add to Cart</button>
+            </div>
+
+            <div class="menu-item">
+                <img src="lemon Juice.jpg" alt="Omelette">
+                <h3>Lemon Juice</h3>
+                <p>₹12</p>
+                <div class="qty-control">
+                    <button onclick="changeQtyMenu('Omelette', -1)">-</button>
+                    <span id="qty-Omelette">0</span>
+                    <button onclick="changeQtyMenu('Omelette', 1)">+</button>
+                </div>
+                <button onclick="addToCartFromMenu('Omelette',15)">Add to Cart</button>
             </div>
         </div>
     </section>
